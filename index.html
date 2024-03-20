@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+
+  <header>
+    <h1>Encriptador de texto</h1>
+  </header>
+
+  <body>
+
+    <textarea class="texto" id="inputTexto" rows="10" cols="40" placeholder="Ingresa aqui tu texto a encriptar"></textarea>
+
+    <div id="encriptado" class="encriptarTexto">Salida de Texto.</div>
+    
+    <div class="botonera">
+      <br>
+    <button class="boton" type="button" onclick= 'EncriptarTexto()'>Encriptar</button>
+    <button class="boton" type="submit" onclick= 'DecifrarTexto()'>Descifrar</button>
+    </div>
+    <section class="parra">
+      <button class="boton" onclick="copiarContenido()">copiar</button>
+    </section>   
+  </body> 
+  <footer>
+      <a>Challengue Alura</a></p>
+    </footer>
+</html>
